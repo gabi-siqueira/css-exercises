@@ -1,0 +1,24 @@
+
+.red-background {
+    background-color:rgb(241, 143, 143);
+    font-family: Verdana, "Dejavu-sans"; fallback: Sans-serif;
+    /* ? Don't know if I need to write fallback or if it works for visuals only */
+}
+
+.cooler-red-background {
+    background-color: rgb(241, 143, 143);
+    font-family: Verdana, Dejavu-sans; fallback: Sans-serif;
+    font-size: 24px;
+}
+
+#blue-font {
+    color: blue;
+    font-size: 36px;
+}
+
+#green-background {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(188, 233, 188);
+
+}
