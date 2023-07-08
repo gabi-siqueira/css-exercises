@@ -5,10 +5,8 @@
     /* ? Don't know if I need to write fallback or if it works for visuals only */
 }
 
-.cooler-red-background {
-    background-color: rgb(241, 143, 143);
-    font-family: Verdana, Dejavu-sans; fallback: Sans-serif;
-    font-size: 24px;
+.bigger {
+        font-size: 24px;
 }
 
 #blue-font {
@@ -18,7 +16,6 @@
 
 #green-background {
     font-weight: bold;
-    font-size: 24px;
     background-color: rgb(188, 233, 188);
 
 }
