@@ -1,0 +1,20 @@
+.avatar {
+/*Ended up not using, which lead me to think I was wrong since I knew it's the goal of the exercise */
+}
+
+.proportioned {
+    height: 300px;
+    width: 300px;
+}
+
+.distorted {
+    height: 400px;
+    width: 200px;
+}
+
+.original {
+    height: auto;
+    width: auto;
+}
+
+/*From what I can tell, the last class to be determined is the one with the final effect on the element/*
