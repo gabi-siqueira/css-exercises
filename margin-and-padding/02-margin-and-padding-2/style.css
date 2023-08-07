@@ -1,3 +1,4 @@
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -5,23 +6,42 @@ body {
 
 .card {
   width: 400px;
-  background: #fff;
+  background: #ffffff;
   margin: 16px auto;
+/*Different approach than og solution sheet*/
+  border: 10px solid #fff;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  /*Choose to add the padding here instead the card*/
+  padding: 10px;
+  font-size: 22px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
+  /*
+  margin-left: 130px;
+  font-size: 18px;
+  My first approach above didn`t consider the padding inside the button.
+  */
 }
