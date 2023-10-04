@@ -9,21 +9,27 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .modal {
+  display: flex;
+  align-content: flex-start;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+.iconContainer {
+  display: flex;
+  margin-right: 16px;
 }
 
 .icon {
-  color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
@@ -33,6 +39,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mainContainer {
+  border: solid 1px red;
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerContainer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-weight: bold;
+font-size: 18px;
+margin-top: 0px;
+margin-bottom: 8px;
 }
 
 .close-button {
@@ -55,6 +78,16 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
 }
+
+/*Learnings: Next time, no need to create containers inside the main container. Simplify.*/
+.textContainer {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.buttonContainer {
+display: flex;
+gap: 4px;}
 
 button.continue {
   background: royalblue;

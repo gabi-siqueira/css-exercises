@@ -2,14 +2,39 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+/*Learnings: The solution and result would be simpler if text-align were defined on the body class. As it wasn't, the current version has a slightly difference alignment between the text and img on each info box*/
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+}
+
 img {
+  display: flex;
+  align-self: center;
   width: 100px;
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
+.info {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.text {
+display: flex;
+text-align: center;
 }
 
 /* do not edit this footer */
